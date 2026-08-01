@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CivicBot — Server infrastructure for Discord</title>
+<meta name="description" content="CivicBot tracks activity, moderates, and rewards your most active members — one bot for the whole server.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="bar">
+    <a href="index.html" class="brand">
+      <span class="seal" aria-hidden="true">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+          <circle cx="16" cy="16" r="14.5" stroke="#A67C3D" stroke-width="1.2"/>
+          <circle cx="16" cy="16" r="11" stroke="#A67C3D" stroke-width="0.6" stroke-dasharray="1.2 3.4"/>
+          <path d="M11 14.5C11 12 13 10.5 16 10.5C19 10.5 21 12 21 14.5C21 17 19 18 16.5 18.5V19.5" stroke="#1E2A3A" stroke-width="1.3" stroke-linecap="round"/>
+          <circle cx="16.3" cy="22" r="1" fill="#1E2A3A"/>
+        </svg>
+      </span>
+      <span class="brand-name">CivicBot</span>
+    </a>
+    <nav class="primary">
+      <a href="index.html#services">Plans</a>
+      <a href="index.html#policies">Policies</a>
+      <a href="terms.html">Terms</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="#" class="btn btn-primary">Add to Discord</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap grid">
+    <div>
+      <p class="eyebrow">Server Record — Open Registration</p>
+      <h1 class="display">Civic infrastructure<br>for your <em>Discord</em> server.</h1>
+      <p class="lede">Activity tracking, moderation, and member leveling — filed under one bot, instead of five you have to configure separately.</p>
+      <div class="cta-row">
+        <a href="#" class="btn btn-primary">Add to Discord — it's free</a>
+        <a href="index.html#services" class="btn btn-ghost">View plans</a>
+      </div>
+    </div>
+
+    <div class="registry-card reveal">
+      <div class="card-head">
+        <span class="card-tag">SERVER RECORD<br>NO. 0417</span>
+        <span class="seal" aria-hidden="true">
+          <svg width="30" height="30" viewBox="0 0 32 32" fill="none">
+            <circle cx="16" cy="16" r="14.5" stroke="#A67C3D" stroke-width="1.2"/>
+            <circle cx="16" cy="16" r="11" stroke="#A67C3D" stroke-width="0.6" stroke-dasharray="1.2 3.4"/>
+            <path d="M11 14.5C11 12 13 10.5 16 10.5C19 10.5 21 12 21 14.5C21 17 19 18 16.5 18.5V19.5" stroke="#1E2A3A" stroke-width="1.3" stroke-linecap="round"/>
+            <circle cx="16.3" cy="22" r="1" fill="#1E2A3A"/>
+          </svg>
+        </span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">Messages tracked</span>
+        <span class="stat-value"><span data-count-to="128460">0</span></span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">Members leveled up</span>
+        <span class="stat-value"><span data-count-to="2317">0</span></span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">Warnings logged</span>
+        <span class="stat-value"><span data-count-to="94">0</span></span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">Status</span>
+        <span class="stat-value ledger">In good standing</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <h2>Two filings, one bot</h2>
+      <p>Start free. Upgrade when your server outgrows the seven-day record.</p>
+    </div>
+
+    <div class="directory reveal">
+      <div class="record">
+        <div class="record-head">
+          <h3 style="font-family:var(--display);font-size:20px;margin:0;">Free</h3>
+          <span class="stamp free">No card required</span>
+        </div>
+        <div class="record-price">$0 <span>/ forever</span></div>
+        <div class="record-note">7 days of history</div>
+        <ul>
+          <li>Message activity, active members, top channels</li>
+          <li>Leaderboards, voice time, emoji and invite tracking</li>
+          <li>Warnings, timeouts, and a full moderation log</li>
+          <li>Automod: spam, link, invite, caps, and word filters</li>
+          <li>Welcome messages, reaction roles, polls, reminders, giveaways</li>
+          <li>Tickets and up to 10 custom commands</li>
+        </ul>
+      </div>
+
+      <div class="record">
+        <div class="record-head">
+          <h3 style="font-family:var(--display);font-size:20px;margin:0;">Premium</h3>
+          <span class="stamp premium">Per server</span>
+        </div>
+        <div class="record-price">$4.99 <span>/ month</span></div>
+        <div class="record-note">90 days of history</div>
+        <ul>
+          <li>Everything in Free, with a 90-day record</li>
+          <li>Charts, heatmaps, and CSV export</li>
+          <li>Leveling system with automatic role rewards</li>
+          <li>Sticky messages and ticket transcripts</li>
+          <li>Unlimited custom commands</li>
+          <li>Custom embed color and weekly reports by DM</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="policies">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <h2>Filed under policy</h2>
+      <p>The short version. Full terms are linked in the footer.</p>
+    </div>
+
+    <div class="reveal">
+      <div class="ordinance">
+        <div class="ordinance-mark">§ 1</div>
+        <div>
+          <h3>Cancel anytime</h3>
+          <p>Cancel your subscription whenever you like. You keep Premium access until the end of the period you already paid for — no early cutoff.</p>
+        </div>
+      </div>
+      <div class="ordinance">
+        <div class="ordinance-mark">§ 2</div>
+        <div>
+          <h3>Refunds</h3>
+          <p>Contact us within 14 days of your first payment and we'll refund it in full, no questions asked. See the <a href="terms.html#billing">Terms of Service</a> for the complete policy.</p>
+        </div>
+      </div>
+      <div class="ordinance">
+        <div class="ordinance-mark">§ 3</div>
+        <div>
+          <h3>Support</h3>
+          <p>Reach us at <span class="fill">[SUPPORT EMAIL]</span> or through the support server linked in <code>/premium info</code>. We reply within a few days.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" style="border-bottom:none;">
+  <div class="wrap">
+    <h2>File your server today.</h2>
+    <p>Free to add. Upgrade only if you need the longer record.</p>
+    <a href="#" class="btn btn-primary">Add CivicBot to Discord</a>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="row">
+      <a href="index.html" class="brand">
+        <span class="seal" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 32 32" fill="none">
+            <circle cx="16" cy="16" r="14.5" stroke="#A67C3D" stroke-width="1.2"/>
+            <path d="M11 14.5C11 12 13 10.5 16 10.5C19 10.5 21 12 21 14.5C21 17 19 18 16.5 18.5V19.5" stroke="#1E2A3A" stroke-width="1.3" stroke-linecap="round"/>
+            <circle cx="16.3" cy="22" r="1" fill="#1E2A3A"/>
+          </svg>
+        </span>
+        <span class="brand-name">CivicBot</span>
+      </a>
+      <div class="legal-links">
+        <a href="terms.html">Terms of Service</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="impressum.html">Impressum</a>
+      </div>
+    </div>
+    <div class="fine">© 2026 Linus Wolf. Not affiliated with Discord Inc.</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

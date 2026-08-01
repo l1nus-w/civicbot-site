@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Datenschutzerklärung — CivicBot</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="bar">
+    <a href="index.html" class="brand">
+      <span class="seal" aria-hidden="true">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+          <circle cx="16" cy="16" r="14.5" stroke="#A67C3D" stroke-width="1.2"/>
+          <path d="M11 14.5C11 12 13 10.5 16 10.5C19 10.5 21 12 21 14.5C21 17 19 18 16.5 18.5V19.5" stroke="#1E2A3A" stroke-width="1.3" stroke-linecap="round"/>
+          <circle cx="16.3" cy="22" r="1" fill="#1E2A3A"/>
+        </svg>
+      </span>
+      <span class="brand-name">CivicBot</span>
+    </a>
+    <nav class="primary">
+      <a href="index.html#services">Plans</a>
+      <a href="terms.html">Terms</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="index.html" class="btn btn-primary">Back to CivicBot</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap doc">
+  <div class="doc-head">
+    <p class="eyebrow">Filed Document · German</p>
+    <h1>Datenschutzerklärung</h1>
+    <p class="meta">Stand: <span class="fill">[DATUM]</span></p>
+  </div>
+
+  <div class="doc-body">
+    <div class="callout"><strong>Note for English speakers:</strong> This privacy policy is written in German, as required for legal clarity under German and EU data protection law. If you need an English translation, contact us at <span class="fill">[SUPPORT-E-MAIL]</span>.</div>
+
+    <h2><span class="num">01</span>Verantwortlicher</h2>
+    <p>Verantwortlich für die Datenverarbeitung im Zusammenhang mit CivicBot im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:</p>
+    <p>
+      <span class="fill">Linus Wolf</span><br>
+      <span class="fill">[STRASSE UND HAUSNUMMER]</span><br>
+      <span class="fill">[PLZ UND ORT]</span><br>
+      Deutschland<br>
+      E-Mail: <span class="fill">[SUPPORT-E-MAIL]</span>
+    </p>
+
+    <h2><span class="num">02</span>Überblick: welche Daten wir verarbeiten</h2>
+    <p>CivicBot ist ein automatisiertes Programm ("Bot"), das auf der Plattform Discord läuft. Um seine Funktionen (Statistiken, Moderation, Leveling, Community-Tools) bereitzustellen, verarbeitet der Bot bestimmte technische Daten aus den Servern ("Guilds"), auf denen er von einem Server-Administrator installiert wurde. Im Einzelnen:</p>
+    <ul>
+      <li><strong>Nachrichten-Metadaten:</strong> Zeitpunkt, Kanal-ID, Server-ID und die Discord-Nutzer-ID der Person, die eine Nachricht gesendet hat — <strong>nicht</strong> der Inhalt der Nachricht selbst (mit Ausnahme des Textes, den du beim Einrichten eigener Custom Commands hinterlegst)</li>
+      <li><strong>Mitglieder-Ereignisse:</strong> Zeitpunkt von Server-Beitritten und -Austritten, zur Berechnung von Mitgliederwachstum und Onboarding-Statistiken</li>
+      <li><strong>Sprachkanal-Nutzung:</strong> Beitritts- und Verlassenszeitpunkt von Sprachkanälen, zur Berechnung der Sprachzeit</li>
+      <li><strong>Reactions/Emojis:</strong> welches Emoji verwendet wurde und von wem, zur Auswertung der meistgenutzten Reaktionen</li>
+      <li><strong>Einladungs-Daten:</strong> welcher Einladungslink zu welchem Server-Beitritt geführt hat</li>
+      <li><strong>Moderations-Daten:</strong> Verwarnungen, Zeitsperren und zugehörige Begründungen, die von Moderatoren des jeweiligen Servers eingetragen werden</li>
+      <li><strong>Level-/XP-Daten:</strong> gesammelte Erfahrungspunkte und Level pro Nutzer und Server (nur bei Premium-Servern)</li>
+      <li><strong>Server-Einstellungen:</strong> von Administratoren konfigurierte Einstellungen wie Kanäle, Rollen, Automod-Regeln und eigene Textbausteine (Custom Commands, Willkommensnachrichten, Sticky Messages)</li>
+      <li><strong>Zahlungsbezogene Daten:</strong> bei Premium-Abonnements die Zuordnung einer Stripe-Abonnement-ID zu einer Server-ID, damit Zahlungen automatisch der richtigen Community zugeordnet werden können. Zahlungsdaten wie Kreditkarteninformationen selbst verarbeiten wir nicht — diese werden ausschließlich von unserem Zahlungsdienstleister Stripe verarbeitet (siehe Abschnitt 6)</li>
+    </ul>
+    <p>Discord-Nutzer-IDs sind für sich genommen keine Klarnamen, können aber in Kombination mit weiteren, bei Discord selbst hinterlegten Daten personenbezogen sein. Für die eigentliche Kontoverwaltung (Nutzername, Profilbild, E-Mail-Adresse etc.) ist ausschließlich Discord Inc. verantwortlich; dazu gilt die <a href="https://discord.com/privacy" target="_blank" rel="noopener">Datenschutzerklärung von Discord</a>.</p>
+
+    <h2><span class="num">03</span>Zwecke der Verarbeitung und Rechtsgrundlage</h2>
+    <p>Wir verarbeiten die oben genannten Daten, um:</p>
+    <ul>
+      <li>die von Server-Administratoren angeforderten Funktionen bereitzustellen (Statistiken, Moderation, Leveling, Automatisierung) — Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung gegenüber dem Server, der den Bot hinzugefügt hat) bzw. Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einem funktionierenden, moderierten Server);</li>
+      <li>Premium-Abonnements korrekt der jeweiligen Community zuzuordnen und abzurechnen — Rechtsgrundlage Art. 6 Abs. 1 lit. b DSGVO;</li>
+      <li>den Dienst technisch stabil und sicher zu betreiben (z.B. Erkennung von Spam/Raid-Verhalten) — Rechtsgrundlage Art. 6 Abs. 1 lit. f DSGVO.</li>
+    </ul>
+
+    <h2><span class="num">04</span>Speicherdauer</h2>
+    <p>Die Speicherdauer unterscheidet sich je nach Server-Plan:</p>
+    <ul>
+      <li><strong>Kostenlose Server:</strong> Rohdaten (Nachrichten-Metadaten, Sprachzeiten etc.) werden nach 7 Tagen automatisch gelöscht</li>
+      <li><strong>Premium-Server:</strong> Rohdaten werden nach 90 Tagen automatisch gelöscht</li>
+      <li><strong>Server-Einstellungen, Level-Stände und Moderations-Historie</strong> bleiben bestehen, solange der Bot auf dem jeweiligen Server aktiv ist, und werden gelöscht, sobald der Bot vom Server entfernt und uns dies technisch durch Discord mitgeteilt wird, spätestens aber auf Anfrage (siehe Abschnitt 7)</li>
+    </ul>
+
+    <h2><span class="num">05</span>Empfänger und Auftragsverarbeiter</h2>
+    <p>Zur Bereitstellung des Dienstes setzen wir folgende externe Dienstleister ein, die in unserem Auftrag bzw. als eigenständig Verantwortliche Daten verarbeiten:</p>
+    <ul>
+      <li><strong>Discord Inc.</strong> (USA) — die Plattform, auf der CivicBot läuft. Discord ist für die Nutzerkonten selbst eigenständig verantwortlich.</li>
+      <li><strong>Railway Corporation</strong> — unser Hosting-Anbieter, auf dessen Servern die Datenbank des Bots liegt.</li>
+      <li><strong>Stripe, Inc.</strong> (USA) — unser Zahlungsdienstleister für Premium-Abonnements. Stripe verarbeitet Zahlungsdaten eigenverantwortlich gemäß der <a href="https://stripe.com/de/privacy" target="_blank" rel="noopener">Datenschutzerklärung von Stripe</a>.</li>
+    </ul>
+    <p>Soweit Anbieter Daten außerhalb der EU/des EWR verarbeiten (z.B. in den USA), stützen wir uns auf die von diesen Anbietern bereitgestellten Garantien, insbesondere EU-Standardvertragsklauseln.</p>
+
+    <h2><span class="num">06</span>Zahlungsabwicklung über Stripe</h2>
+    <p>Wenn du ein Premium-Abonnement abschließt, findet der eigentliche Bezahlvorgang vollständig bei unserem Zahlungsdienstleister Stripe statt. Wir erhalten dabei keine vollständigen Kreditkartendaten — lediglich eine Bestätigung, dass eine Zahlung erfolgt ist, sowie eine Referenz, mit der wir sie deinem Server zuordnen können. Für den Bezahlvorgang selbst gilt die Datenschutzerklärung von Stripe.</p>
+
+    <h2><span class="num">07</span>Deine Rechte</h2>
+    <p>Nach der DSGVO stehen dir als betroffener Person folgende Rechte zu:</p>
+    <ul>
+      <li><strong>Auskunft</strong> (Art. 15 DSGVO) über die zu dir gespeicherten Daten</li>
+      <li><strong>Berichtigung</strong> (Art. 16 DSGVO) unrichtiger Daten</li>
+      <li><strong>Löschung</strong> (Art. 17 DSGVO) deiner Daten</li>
+      <li><strong>Einschränkung der Verarbeitung</strong> (Art. 18 DSGVO)</li>
+      <li><strong>Datenübertragbarkeit</strong> (Art. 20 DSGVO)</li>
+      <li><strong>Widerspruch</strong> (Art. 21 DSGVO) gegen Verarbeitungen, die auf berechtigtem Interesse beruhen</li>
+      <li><strong>Beschwerde bei einer Aufsichtsbehörde</strong> (Art. 77 DSGVO), z.B. bei der für dich zuständigen Landesdatenschutzbehörde</li>
+    </ul>
+    <p>Um eines dieser Rechte auszuüben, schreib uns unter <span class="fill">[SUPPORT-E-MAIL]</span>. Server-Administratoren können außerdem jederzeit einzelne Funktionen deaktivieren oder den Bot vollständig vom Server entfernen, um die weitere Datenerhebung auf diesem Server zu beenden.</p>
+
+    <h2><span class="num">08</span>Keine Cookies auf dieser Website</h2>
+    <p>Diese Website (die du gerade liest) setzt selbst keine Cookies und bindet keine Analyse- oder Tracking-Dienste ein. Der Bot selbst läuft innerhalb von Discord und nicht über diese Website.</p>
+
+    <h2><span class="num">09</span>Minderjährige</h2>
+    <p>CivicBot richtet sich nicht gezielt an Kinder. Die Nutzung von Discord selbst setzt gemäß Discords eigenen Nutzungsbedingungen ein Mindestalter voraus. Wir erheben keine bewusst auf Minderjährige unterhalb dieses Mindestalters ausgerichteten Daten.</p>
+
+    <h2><span class="num">10</span>Änderungen dieser Datenschutzerklärung</h2>
+    <p>Wir können diese Datenschutzerklärung bei Bedarf aktualisieren, etwa wenn sich der Funktionsumfang von CivicBot oder die eingesetzten Dienstleister ändern. Die jeweils aktuelle Version findest du immer unter dieser Adresse.</p>
+  </div>
+</div>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="row">
+      <a href="index.html" class="brand">
+        <span class="seal" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 32 32" fill="none">
+            <circle cx="16" cy="16" r="14.5" stroke="#A67C3D" stroke-width="1.2"/>
+            <path d="M11 14.5C11 12 13 10.5 16 10.5C19 10.5 21 12 21 14.5C21 17 19 18 16.5 18.5V19.5" stroke="#1E2A3A" stroke-width="1.3" stroke-linecap="round"/>
+            <circle cx="16.3" cy="22" r="1" fill="#1E2A3A"/>
+          </svg>
+        </span>
+        <span class="brand-name">CivicBot</span>
+      </a>
+      <div class="legal-links">
+        <a href="terms.html">Terms of Service</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="impressum.html">Impressum</a>
+      </div>
+    </div>
+    <div class="fine">© 2026 Linus Wolf. Not affiliated with Discord Inc.</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
